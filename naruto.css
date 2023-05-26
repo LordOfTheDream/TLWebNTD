@@ -1,0 +1,1771 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+/* Header */
+.Nav {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    /* background-color: black; */
+    background: url(im/naruto3.jpg) center / cover no-repeat;
+    display: flex;
+    /* flex-wrap: wrap;  */
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.Nav_logo-name {
+    height: 100px;
+   /* flex-basis: 33,33%; */
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    padding-top: 26px;
+    
+    
+}
+
+.Nav_logo-name a{
+    color: white;
+    text-decoration: none;
+}
+
+.Nav_search {
+    /* background-color: white; */
+    /* flex-basis: 33,33%; */
+    border-radius: 30px;
+    position: relative;
+    width: 468px;
+    display: flex;
+}
+
+.Nav_search i {
+   color: white;
+    position: absolute;
+    left: 2%;
+    top: 26%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Nav_search input {
+    color: white;
+    height: 34px;
+    width: 100%;
+    border-radius: 30px;
+    border-style: none;
+    text-indent: 30px;
+    background: transparent;
+}
+
+.Nav_search-input::placeholder{
+    color: white;
+}
+
+.Nav_search input:focus-visible {
+    outline: none;
+    
+}
+
+.Nav_search-btn {
+    border-style: none;
+    border-radius: 24px;
+    width: 100px;
+    height: 26px;
+    /* background-color:black; */
+    background: transparent;
+    color: #fff;
+    position: absolute;
+    right: 1%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.Nav_cart-content {
+    /* flex-basis: 33,33%; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shopping-cart {
+    position: relative;
+    width: 47px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+}
+
+.shopping-cart i {
+}
+
+.Nav_login-signup{
+    display: flex;
+    color: white;
+}
+
+.login-signup{
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 9px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.login-signup a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.login-signup:hover {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: white;
+    text-decoration: none;
+}
+
+.login-signup:hover  a .signin{
+    color: black;
+}
+
+.login-signup:hover  a .signup{
+    color: black;
+}
+
+.Nav_login-signup span:first-child {
+    border-right: 1px white solid;
+    padding-right: 4px;
+}
+
+.Nav_login-signup .login-signup:hover{
+    background-color: #ccc;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+/* End Header */
+
+/* Menu */
+.Nav-menu{
+    /* background-color:black; */
+  position: absolute;
+    height: 30px;
+    bottom: 0px;
+    left: 4%;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+   
+}
+
+.menu i{
+    position: absolute;
+   font-size: 24px;
+    left: 1%;
+    top:3px;
+    color: white;
+}
+
+.menu li{
+    list-style-type: none;
+    color: white;
+    width: 250px;
+    line-height: 30px;
+    padding: 0 48px;
+    position: relative;
+    
+}
+
+.menu li{
+   
+    cursor: pointer;
+}
+
+.menu li:hover .submenu{
+    display:block;
+}
+
+
+.submenu{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    left:0;
+    z-index: 1;
+    /* background-color: black; */
+    background: url(im/naruto3.jpg) center / no-repeat;
+    
+}
+
+.submenu li{
+   /* border: 0.1px solid black;*/
+   border-bottom: 0.05px solid black; 
+}
+
+.submenu li:hover{
+    background-color: rgb(222, 216, 216);
+    color: black;
+}
+
+.menu #icon-down{
+    cursor: pointer;
+}
+
+.menu #icon-down:hover .submenu{
+    display: block;
+}
+
+.menu ia{
+    position: absolute;
+    left: 180px;
+    top: 1px;
+    font-size: 26px;
+    color: white;
+}
+
+.submenu li{
+    position: relative;
+}
+
+.submenu li ib{
+    position: absolute;
+    right:0;
+    top: 2px;
+    font-size: 24px;
+}
+/* End Menu */
+
+/* space */
+.space {
+    width: 100%;
+    padding-top: 1%;
+    border-top: 1px dashed rgb(58, 55, 55);
+    padding-bottom: 2%;
+}
+/* End space */
+
+.Home-title{
+    margin: 26px;
+    border-bottom: 1px dashed black;
+    font-size: 20px;
+}
+
+.main{
+    width: 100%;
+}
+/*introduce*/
+.introduce{
+   
+    height: 260px;
+    text-align: center;
+    margin: 0px 350px;
+}
+
+.introduce-name{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.introduce-manga{
+    position: relative;
+    text-align: justify;
+    line-height: 1.5;
+    top: 12px;
+}
+
+/*end introduce*/
+
+/* Begin Content1*/
+.content1{
+    padding-right: 24px;
+    align-items: center;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 100%;
+    grid-template-columns: 21% 58% 21%;
+    grid-template-rows: 342px 342px;
+    grid-template-areas: 
+    'b1 video b3'
+    'b2 video b4';
+
+}
+
+.content1-book1{
+    grid-area: b1;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.content1-book1:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content1-book1:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content1-book1:hover .book-text{
+    opacity: 1;
+}
+
+.content1-book2{
+    grid-area: b2;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.content1-book2:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content1-book2:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content1-book2:hover .book-text{
+    opacity: 1;
+}
+
+.content1-middle{
+    grid-area: video;
+    text-align: center;
+    position: relative;
+}
+
+.content1-middle-title{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -28px;
+}
+
+.content1-middle-information{
+    position: relative;
+    top: -17px;
+}
+
+.content1-video{
+    position: relative;
+    bottom: -9px;
+}
+
+.content1-book3{
+    grid-area: b3;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content1-book3:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content1-book3:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content1-book3:hover .book-text{
+    opacity: 1;
+}
+
+.content1-book4{
+    grid-area: b4;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content1-book4:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content1-book4:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content1-book4:hover .book-text{
+    opacity: 1;
+}
+/* End Content1 */
+
+
+
+/*Begin Content2*/
+
+/*Big Content2*/
+
+.content2{
+    display: flex;
+    height: 660px;
+}
+
+/* End Big Content 2 */
+
+/*main-content*/
+.main-content{
+    width: 45%;
+    text-align: center;
+    position: relative;
+    left: 25px;
+    top: 60px;
+}
+
+.main-content-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.main-content-information{
+    position: relative;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+/* End main-content */
+
+.main-content-book{
+    width: 100%;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 33% 33% 33%;
+    margin: auto;
+    grid-template-areas: 
+    'b1 b2 b3';
+    position: relative;
+    top: 40px;
+}
+
+.img1{
+    width: 220px;
+    cursor: pointer;
+    height: 342px;
+}
+
+.book1{
+    grid-area: b1;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.book1:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.book1:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.book1:hover .book-text{
+    opacity: 1;
+}
+
+.book-content{
+    transition: height 2s;
+    
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    top:-10px;
+    left: 50%;
+    transform: translate(-50%);
+   
+}
+
+.book-btn{
+    padding: 12px 18px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.book-btn:hover {
+    transition: 1s;
+    background-color: gainsboro;
+}
+
+
+.book-text{
+    color: white;
+    font-size: 20px;
+   text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: 220px;
+}
+
+.book2{
+    grid-area: b2;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.book2:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.book2:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.book2:hover .book-text{
+    opacity: 1;
+}
+
+
+.book3{
+    grid-area: b3;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.book3:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.book3:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.book3:hover .book-text{
+    opacity: 1;
+}
+
+/* End Content2 */
+
+
+/* Begin Content3 */
+.content3{
+    width: 100%;
+    height: 960px;
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:444px 422px ;
+    margin: auto;
+    position: relative;
+    grid-template-areas: 
+    'main1 video1'
+    'video2 main2';
+}
+
+
+.content3-main1{
+    grid-area: main1;
+    text-align: center;
+}
+
+.content3-main1-title{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -38px;
+}
+.content3-main1-information{
+    position: relative;
+    text-align: justify;
+    line-height: 1.5;
+    top: -30px;
+    margin-left: 15px;
+    margin-right: 22px;
+}
+
+.content3-main1-book{
+    display: grid;
+    width: 100%;
+    height: 342px;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    grid-template-areas: 
+    'b1 b2';
+}
+
+.content3-main1-book1{
+    grid-area: b1;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    margin: auto;
+    top: -25px;
+}
+
+.content3-main1-book1:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content3-main1-book1:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content3-main1-book1:hover .book-text{
+    opacity: 1;
+}
+
+.content3-main1-book2{
+    grid-area: b2;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    margin: auto;
+    top: -25px;
+}
+
+.content3-main1-book2:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content3-main1-book2:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content3-main1-book2:hover .book-text{
+    opacity: 1;
+}
+
+.content3-main2{
+    grid-area: main2;
+    text-align: center;
+}
+
+.content3-main2-title{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -38px;
+}
+.content3-main2-information{
+    position: relative;
+    text-align: justify;
+    line-height: 1.5;
+    top: -30px;
+    margin-left: 15px;
+    margin-right: 22px;
+}
+
+.content3-main2-book{
+    display: grid;
+    width: 100%;
+    height: 342px;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    grid-template-areas: 
+    'b1 b2';
+}
+
+.content3-main2-book1{
+    grid-area: b1;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    margin: auto;
+    top: -25px;
+}
+
+
+.content3-main2-book1{
+    grid-area: b1;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    margin: auto;
+    top: -25px;
+}
+
+.content3-main2-book1:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content3-main2-book1:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content3-main2-book1:hover .book-text{
+    opacity: 1;
+}
+
+.content3-main2-book2{
+    grid-area: b2;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    margin: auto;
+    top: -25px;
+}
+
+.content3-main2-book2:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content3-main2-book2:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content3-main2-book2:hover .book-text{
+    opacity: 1;
+}
+
+
+.content3-video1{
+    grid-area: video1;
+}
+
+.content3-video2{
+    grid-area: video2;
+}
+/* End Contact3 */
+
+
+/* Begin Content4 / Change name Content1 */
+.content4{
+    padding-right: 24px;
+    align-items: center;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 100%;
+    grid-template-columns: 21% 58% 21%;
+    grid-template-rows: 342px 342px;
+    grid-template-areas: 
+    'b1 video b3'
+    'b2 video b4';
+
+}
+
+.content4-book1{
+    grid-area: b1;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.content4-book1:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content4-book1:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content4-book1:hover .book-text{
+    opacity: 1;
+}
+
+.content4-book2{
+    grid-area: b2;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content4-book2:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content4-book2:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content4-book2:hover .book-text{
+    opacity: 1;
+}
+
+.content4-middle{
+    grid-area: video;
+    text-align: center;
+    position: relative;
+}
+
+.content4-middle-title{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -28px;
+}
+
+.content4-middle-information{
+    position: relative;
+    top: -17px;
+}
+
+.content4-video{
+    position: relative;
+    bottom: -9px;
+}
+
+.content4-book3{
+    grid-area: b3;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content4-book3:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content4-book3:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content4-book3:hover .book-text{
+    opacity: 1;
+}
+
+.content4-book4{
+    grid-area: b4;
+    width: 220px;
+    height: 342px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content4-book4:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.content4-book4:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.content4-book4:hover .book-text{
+    opacity: 1;
+}
+/* End Content4 */
+
+/* Begin Content5 */
+.content5{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.content5-info{
+    width: 80%;
+    margin: auto;
+}
+
+.content5-info-title{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.content5-info-information{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.content5-book{
+    position: relative;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+    width: 68%;
+    
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 20% 20% 20% 20% ;
+    grid-template-areas: 
+    'b1 b2 b3 b4';
+    height: 342px;
+}
+
+.b1{
+    grid-area: b1;
+    margin: auto;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.b1:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.b1:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.b1:hover .book-text{
+    opacity: 1;
+}
+
+
+.b2{
+    grid-area: b2;
+    margin: auto;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.b2:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.b2:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.b2:hover .book-text{
+    opacity: 1;
+}
+
+
+.b3{
+    grid-area: b3;
+    margin: auto;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.b3:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.b3:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.b3:hover .book-text{
+    opacity: 1;
+}
+
+.b4{
+    grid-area: b4;
+    margin: auto;
+    width: 220px;
+    height: 342px;
+    position: relative;
+}
+
+.b4:hover .book-content{
+    display: block;
+    height: 342px;
+}
+
+.b4:hover .img1{
+    opacity: 0.4;
+    transition: 2s;
+}
+
+.b4:hover .book-text{
+    opacity: 1;
+}
+
+.content5-video{
+    width: 100%;
+}
+
+
+
+
+
+.contact{
+    width: 800px;
+    max-width: 100%;
+    /* patext-align: center;dding: 64px 0 112px; */
+    position: relative;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+.contact-heading{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact1{
+    width: 50%;
+    float: left;
+    
+}
+
+.contact-information{
+    font-size: 18px;
+    
+}
+
+#location-icon{
+    position: relative;
+    top:2px;
+}
+
+#phone-information{
+    position: relative;
+    top:2px;
+}
+
+#mail-information{
+    position: relative;
+    top:2px;
+}
+
+.contact2{
+    float: left;
+    width: 50%;
+   
+}
+
+.row1{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row1-1{
+    width: 50%;
+    float: left;
+    padding: 0 8px;
+  
+}
+
+.form1{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.row2{
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row2-1{
+    
+    width: 100%;
+    float: left;
+    padding: 0 8px;
+}
+
+.contact-btn{
+    float: right;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 22%;
+    height: 44px;
+    font-size: 18px;
+}
+
+/* Begin Footer */
+.form-email {
+    background-color: #000;
+    color: #fff;
+}
+
+.form-group {
+    display: flex;
+    margin: 0px 130px;
+    padding: 10px 0;
+}
+
+.form-group label {
+    margin: 10px 20px 10px 0px;
+}
+
+
+label span {
+    display: block;
+    font-size: 13px;
+    justify-content: space-around;
+}
+
+label span:first-child {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.input-group input {
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-size: 13px;
+    border: 1px solid #fff;
+}
+
+
+
+.input-group input:focus-visible {
+    outline: none;
+}
+
+.input-group .name-input,
+.interest-input,
+.email-input  {
+    width: 180px;
+    height: 38px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 4px;
+    margin-bottom: 1px;
+}
+
+.input-group .email-input {
+    width: 280px;
+    height: 38px;
+}
+
+.input-group .btn-signup {
+    width: 170px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    border: 1px solid #fff;
+}
+
+.footer-container {
+    margin: 0px 6%;
+    font-size: 0.813rem;
+    margin-bottom: 5%;
+}
+
+.overlay-row {
+    padding-top: 20px;
+}
+
+.footer-container .overlay-row .row {
+    display: flex;
+}
+
+.footer-container .row .span5 {
+    width: 45%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.footer-container .row .span4 {
+    width: calc(100% / 3);
+    margin-left: 6px;
+    padding: 20px 0;
+}
+
+.span4 .content .title {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 0.875rem;
+    padding: 0 0 5px 0;
+}
+
+.span4 .content ul li {
+    list-style: none;
+}
+
+.span4 .content ul li a {
+    text-decoration: none;
+    color: #888888;
+    display: block;
+    padding: 3px 0;
+    white-space: nowrap;
+    transition: 0.3s linear;
+}
+
+.span4 .content ul li a:hover {
+    color: #000;
+}
+
+.logo-app-mobile {
+    position: absolute;
+    bottom: -20%;
+}
+
+.logo-app-mobile .title {
+    font-weight: 600;
+    color: #000;
+    font-size: 0.875rem;
+}
+
+.mg-r {
+    margin-right: 10px;
+}
+
+.span7 {
+    width: 55%;
+    display: flex;
+}
+
+.span7 .span4:first-child {
+    min-width: 33%;
+}
+
+.span7 .span4 .icon-payment {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.span7 .span4 .icon-payment img {
+    margin: 0 3px 6px 3px;
+    border: 1px solid #cecece;
+    max-width: 25%;
+}
+
+.span7 .span4 .logo-shipper {
+    padding-top: 10px;
+}
+
+.span7 .span4 .logo-shipper img {
+    margin: 0 3px 12px 3px;
+    max-width: 78%;
+}
+
+.width {
+    width: 78%;
+}
+
+/* Footer Copyright */
+.footer-copyright {
+    border-top: 1px solid #330000;
+    padding: 20px 0;
+}
+
+.container__infos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-copyright p {
+    color: #000;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+}
+
+.footer-copyright span {
+    font-size: 12px;
+    color: #444444;
+    line-height: 24px;
+}
+
+.footer-copyright .span3 {
+    width: 276px;
+}
+
+.footer-copyright .span3 img {
+    width: 100%;
+}
+
+.footer-copyright .span5 {
+    width: 500px;
+}
+
+.logo-web-he-thong {
+    float: left;
+    margin: 20px 20px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:786px){
+    .Nav_logo-name {
+       
+        padding-top: 8px;
+        
+    }
+
+    .shopping-cart
+    {
+    margin-right: 10px;
+    margin-left: 9px;
+    }
+
+    .Nav-menu{
+        left:-4px;
+    }
+
+
+    .introduce{
+        margin: 0px 20px;
+    }
+
+
+
+    .content1{
+        padding-right: 0px;
+        row-gap: 30px;
+        column-gap: 0px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 550px 342px;
+        grid-template-areas:
+        'video video video video'
+        'b1 b2 b3 b4';
+    }
+
+    .content1-middle{
+        margin: auto;
+    }
+
+    .content1-middle-title{
+        top:-20px;
+    }
+
+    .content1-middle-information{
+        margin-left: 25px;
+        margin-right: 37px;
+    }
+
+    .img1{
+        width: 170px;
+        height: 288px;
+    }
+
+    .content1-book1{
+        width: 170px;
+        height: 288px;
+    }
+
+    .content1-book1:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+    
+    .content1-book2{
+        width: 170px;
+        height: 288px;
+    }
+
+    .content1-book2:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+    .content1-book3{
+        width: 170px;
+        height: 288px;
+    }
+
+    .content1-book3:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+    .content1-book4{
+        width: 170px;
+        height: 288px;
+    }
+
+    .content1-book4:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+    .content2{
+        display: block;
+        height: 1000px;
+    }
+
+    .content2 video{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .content2 img{
+        width: 220px;
+        height: 342px;
+    }
+
+    .main-content{
+        width: 100%;
+        position:initial;
+    }
+
+    .book1{
+        margin: auto;
+    }
+
+    .book2{
+        margin: auto;
+    }
+
+    .book3{
+        margin: auto;
+    }
+
+
+
+    .content3{
+        width: 100%;
+        height: 1550px;
+        gap: 0px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 350px 422px 422px 350px ;
+        grid-template-areas: 
+        'main1 main1'
+        'video1 video1'
+        'video2 video2'
+        'main2 main2';
+    }
+
+    .content3-main1{
+        display: flex;
+    }
+
+    .content3-main1-book-title{
+        width: 100%;
+    }
+
+    .content3-main1-title{
+        position: inherit;
+    }
+
+    .content3-main1-information{
+        top:0px;
+    }
+
+    .content3-main1-book1{
+        width: 170px;
+        height: 288px;
+    }
+
+    .content3-main1-book1:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+    .content3-main1-book2{
+        width: 170px;
+        height: 288px;
+    }
+
+    .content3-main1-book2:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+    .content3-main2{
+        display: flex;
+    }
+
+    .content3-video2{
+        padding-bottom: 20px;
+    }
+
+    .content3-main2-title-information{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .content3-main2-title{
+        position: inherit;
+    }
+
+    .content3-main2-information{
+        position: inherit;
+    }
+
+
+
+    .content3-main2-book1{
+        position: inherit;
+        top:7%;
+        width: 170px;
+        height: 288px;
+    }
+
+    .content3-main2-book1:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+    .content3-main2-book2{
+        position: inherit;
+        top: 7%;
+        width: 170px;
+        height: 288px;
+    }
+
+    .content3-main2-book2:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+
+
+    .content4{
+        padding-right: 0px;
+        width: 100%;
+        height: 1000px;
+        row-gap: 30px;
+        column-gap: 0px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 550px 342px;
+        grid-template-areas:
+        'video video video video'
+        'b1 b2 b3 b4';
+    }
+
+    .content4-middle{
+        margin: auto;
+    }
+
+    .content4-middle-title{
+        top:-20px;
+    }
+
+    .content4-middle-information{
+        margin-left: 25px;
+        margin-right: 37px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .content4-book1{
+        width: 170px;
+        height: 288px;
+        top: 22%;
+    }
+
+    .content4-book1:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+    
+    .content4-book2{
+        width: 170px;
+        height: 288px;
+        top: 22%;
+    }
+
+    .content4-book2:hover .book-content{
+        display: block;
+        height: 288px;
+    }
+
+    .content4-book3{
+        width: 170px;
+        height: 288px;
+        top: 22%;
+    }
+
+    .content4-book3:hover .book-content{
+        display: block;
+        height: 288px;
+        
+    }
+
+    .content4-book4{
+        width: 170px;
+        height: 288px;
+        top: 22%;
+    }
+
+    .content4-book4:hover .book-content{
+        display: block;
+        height: 288px;
+        
+    }
+
+    .content5-book{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        grid-template-columns: 25% 25% 25% 25%;
+        column-gap:0px ;
+    }
+
+    .b1{
+        width: 170px;
+        height: 288px;
+    }
+
+    .b1:hover .book-content{
+        display: block;
+        height: 288px;
+        
+    }
+
+    .b2{
+        width: 170px;
+        height: 288px;
+    }
+
+    .b2:hover .book-content{
+        display: block;
+        height: 288px;
+        
+    }
+
+    .b3{
+        width: 170px;
+        height: 288px;
+    }
+
+    .b3:hover .book-content{
+        display: block;
+        height: 288px;
+        
+    }
+
+    .b4{
+        width: 170px;
+        height: 288px;
+    }
+
+    .b4:hover .book-content{
+        display: block;
+        height: 288px;
+        
+    }
+
+
+    /*footer-container*/
+
+    .footer-container{
+        margin: 0;
+        font-size: 10px;
+       margin-bottom: 5%;
+    }
+
+    .footer-container .row .span5{
+        width: 55%;
+    }
+
+    .span5{
+        width: 55%;
+        
+    }
+
+    .footer-container .row .span4{
+        margin-left: 16px;
+    }
+
+    .span4 .content .title{
+        font-size: 13px;
+        
+    }
+
+    .span7{
+        width: 55%;
+        margin-left: 14px;
+    }
+
+    .logo-app-mobile {
+        position: absolute;
+        bottom: -12%;
+        left: 57px;
+    }
+
+    .footer-copyright .span3
+    {
+        margin-right: 24px;
+    }
+}

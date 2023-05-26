@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Boxicons CDN Link -->
+     
+       
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>mangastore.com</title>
+
+  
+</head>
+<body style="background-color:  gainsboro;">
+    <!-- Begin Nav Head-->
+    <nav class="Nav">
+        <div class="Nav_logo-name">
+            <a href="./index.html">
+            <img src="im/logo.jpg" alt="">
+        </a>
+        </div>
+        <div class="Nav_search">
+            <i class='bx bx-search-alt'></i>
+            <input type="text" placeholder="Tìm kiếm tựa sách, tác giả">
+            <button class="Nav_search-btn">Tìm sách</button>
+        </div>
+        <div class="Nav_cart-content">
+            <div class="shopping-cart">
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="Nav_login-signup">
+                <!-- <span>Đăng nhập</span>
+                <span>Đăng ký</span> -->
+                
+                <div class="login-signup ">
+                    <a href="sign_in.html">
+                       <p class="signin"> Đăng nhập</p></a>
+                </div>
+              
+                <div class="login-signup ">
+                    <a href="sign_up.html">
+                       <p class="signup"> Đăng ký</p></a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>    
+    <!-- End Nav Head-->
+    <!-- Main Container  -->
+
+    <div class="main">
+
+        <!-- Menu -->
+        <nav class="Nav-menu">
+            <ul class="menu">
+                <i class='bx bx-menu'></i>
+                <ia id="icon-down" class='bx bx-chevron-down' ></ia>
+                <li>
+                    Danh mục sách
+                    <ul class="submenu">
+                        <li>
+                            <a href="./naruto.html">
+                               Truyện Naruto
+                            </a>
+                            
+                            <ib class='bx bx-chevron-right' ></ib>
+                        </li>
+                        <li>
+                            <a href="./naruto.html">
+                                Truyện OnePiece
+                             </a>
+                            
+                            <ib class='bx bx-chevron-right' ></ib>
+                        </li>
+                        <li>
+                            <a href="./naruto.html">
+                                Truyện DragonBall
+                             </a>
+                            
+                            <ib class='bx bx-chevron-right' ></ib>
+                        </li>
+                        <li>
+                            <a href="./naruto.html">
+                                Truyện Bleach
+                             </a>
+                            
+                            <ib class='bx bx-chevron-right' ></ib>
+                        </li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
+        <!-- End Menu -->
+        
+        <video autoplay loop muted width="100%" >
+            <source src="./im/itachiiii.mp4">
+        </video>
+
+        
+    
+        <!-- Page-title -->
+        <div class="Home-title">
+              <span> Trang chủ</span> 
+        </div>
+        <!-- End Page-title -->
+    
+        <!-- Introduce -->
+        <div class="introduce">
+            <p class="name-store">Manga Store</p>
+            <i class="name-store-feeling">Tôi yêu Manga</i>
+            <p class="store-introduce"> Hoan nghênh bạn đến với cửa hàng sách của chúng tôi. Đến với nơi này chúng tôi sẽ cung cấp cho bạn 
+                những bộ Manga nổi tiếng Nhất của xứ sở Hoa Anh Đào. Chúng tôi sẽ cung cấp cũng như cập nhật những tập 
+                truyện mới nhất và đầy đủ nhất cho các bạn. Tất nhiên đi kèm với đó là những ưu đãi và giá cả rất phải chăng.
+                Vì thế nếu bạn là một người đam mê Manga, thích mua truyện đọc cũng như sưu tầm thì chúng tôi là lựa chọn tốt nhất
+                cho bạn. Hãy đến với chúng tôi đến với Manga Store.
+            </p>
+        </div>
+        <!-- End Introduce -->
+
+        <!--Begin-Content-->
+        <div class="content-body">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                <img src="im/Narutobaby.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="left-1">
+                        <div class="left-1-1">
+                            <img src="im/naruto1.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 1 <br/>
+                                    <a href="./detail.html">
+                                        <button class="book-btn">Buy book </button>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-1-2">
+                            <img src="im/naruto2.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 2 <br/>
+                                    <a href="./detail.html">
+                                        <button class="book-btn">Buy book </button>
+                                        </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                    <h5>NARUTO</h5>
+                    <p>Masashi Kishimoto</p>
+                  <p>Là một thế giới giả tưởng đầy thú vị với những Ninja đầy sức mạnh.
+                    Với nhân vật chính là Naruto, chúng ta sẽ cùng anh ấy bước lên hành trình
+                    để trở thành một Hokage vĩ đại.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="im/op3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="left-2">
+                        <div class="left-2-1">
+                            <img src="im/op1.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 1 <br/>
+                                    <a href="./detail.html">
+                                    <button class="book-btn">Buy book </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-2-2">
+                            <img src="im/op2.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 2 <br/>
+                                    <a href="./detail.html">
+                                        <button class="book-btn">Buy book </button>
+                                        </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                  <h5>ONEPIECE</h5>
+                  <p>Oda Eiichiro</p>
+                  <p>Là một thế giới hải tặc đầy nguy hiểm và thú vị. Nơi chúng ta sẽ cùng với nhân vật chính 
+                    Monkey D.Luffy trải qua các cuộc phiêu lưu kỳ thú, kết bạn và chiến đấu. Cùng dõi theo ước mơ tìm ONEPIECE và trở thành
+                    vua hải tặc của cậu cùng những đồng đội.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="im/DB3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="left-1">
+                        <div class="left-1-1">
+                            <img src="im/dbt2.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 2 <br/>
+                                    <a href="./detail.html">
+                                        <button class="book-btn">Buy book </button>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-1-2">
+                            <img src="im/dbt3.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 3 <br/>
+                                    <a href="./detail.html">
+                                        <button class="book-btn">Buy book </button>
+                                        </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                  <h5>DRAGONBALL</h5>
+                  <p>Toriyama Akira</p>
+                  <p> Là một trong số các 
+                    bộ truyện Manga tuổi thơ của các trẻ em Việt Nam nói riêng và thế giới nói chung. Ta sẽ cùng với 
+                    Son Goku truy tìm 7 viên ngọc rồng và những câu chuyện thú vị đang chào đón.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="im/BL1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="left-2">
+                        <div class="left-2-1">
+                            <img src="im/b1.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 1 <br/>
+                                    <a href="./detail.html">
+                                        <button class="book-btn">Buy book </button>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-2-2">
+                            <img src="im/b2.jpg" class="pic1" alt="">
+                            <div class="book-content">
+                                <div class="book-text">
+                                    Tập 2 <br/>
+                                    <a href="./detail.html">
+                                        <button class="book-btn">Buy book </button>
+                                        </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                  <h5>BLEACH</h5>
+                  <p>Kubo Taito</p>
+                  <p>Hay còn được gọi là "Sứ mạng thần chết" là một trong những bộ truyện hay và nổi tiếng nhất 
+                    Nhật Bản. Truyện kể về cuộc phiêu lưu của Kurosaki Ichigo khi bất ngờ gặp phải Kuchiki Rukia và phải chiến đấu chống lại 
+                    Hollow những linh hồn ma quái.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+         
+           
+
+          </div>
+         
+        </div>
+
+        <div class="about-project">
+            
+                <!-- Tab items -->
+                <div class="tabs">
+                  <div class="tab-item active">
+                    <i class="tab-icon fas fa-code"></i>
+                    Sinh viên
+                  </div>
+                  <div class="tab-item">
+                    <i class="tab-icon fas fa-cog"></i>
+                    Đồ án
+                  </div>
+                  <!-- <div class="tab-item">
+                    <i class="tab-icon fas fa-plus-circle"></i>
+                    Ember
+                  </div>
+                  <div class="tab-item">
+                    <i class="tab-icon fas fa-pen-nib"></i>
+                    Vue.JS
+                  </div> -->
+                  <div class="line"></div>
+                </div>
+              
+                <!-- Tab content -->
+                <div class="tab-content">
+                  <div class="tab-pane active">
+                    <h2>Thông tin Sinh Viên</h2>
+                    <p>MSSV : 2001215721</p>
+                    <p>Họ tên : Nguyễn Trương Điền</p>
+                    <p>Lớp : Thiết kế WEB tiết 1-5 thứ 7</p>
+                    <p>Giảng Viên : Nguyễn Trọng Nghĩa</p>
+                    <p>Trường : Đại Học Công Nghiệp Thực Phẩm</p>
+                  </div>
+                  <div class="tab-pane">
+                    <h2>Thông tin Đề Tài</h2>
+                    <p>Đề tài : Thiết kế giao diện trang Web </p>
+                    <p>Chủ đề Web : Trang Web bán truyện tranh (Manga) </p>
+                    <p>Giải thích: Tổng cộng có 5 trang chính. </p>
+                  </div>
+                  <!-- <div class="tab-pane">
+                    <h2>Ember</h2>
+                    <p>Ember.js is a productive, battle-tested JavaScript framework for building modern web applications. It includes everything you need to build rich UIs that work on any device.</p>
+                  </div>
+                  <div class="tab-pane">
+                    <h2>Vue.js</h2>
+                    <p>Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. </p>
+                  </div> -->
+                </div>
+              
+        </div>
+
+        <script>
+            const $=document.querySelector.bind(document);
+            const $$=document.querySelectorAll.bind(document);
+
+            const tabs = $$('.tab-item');
+            const panes = $$('.tab-pane');
+
+            const tabActive= $('.tab-item.active');
+            const line=$('.tabs .line');
+
+            line.style.left=tabActive.offsetLeft + 'px';
+            line.style.width=tabActive.offsetWidth + 'px';
+
+            tabs.forEach ((tab,index)=> {
+                const pane=panes[index]
+                tab.onclick=function()
+                {
+                    
+
+                    $('.tab-item.active').classList.remove('active')
+                    $('.tab-pane.active').classList.remove('active')
+
+                    line.style.left=this.offsetLeft + 'px'
+                    line.style.width=this.offsetWidth + 'px'
+
+                    this.classList.add('active')
+                    pane.classList.add('active')
+
+                   
+                }
+            });
+        </script>
+
+        <!-- Begin Footer -->
+    <footer>
+        <!-- Begin Footer email -->
+        <div class="form-email">
+            <div class="form-group">
+                <label for="">
+                    <span>đăng ký nhận email</span> 
+                    <span>Đăng ký nhận thông tin sách mới, sách bán</span>
+                </label>
+    
+                <div class="input-group-M">
+                    <input type="text" placeholder="Tên của bạn" class="name-input"></input>
+                    <input type="email" placeholder="Nhập email của bạn" class="email-input"></input>
+                    <select  class="interest-input">
+                        <option value="">Thể loại yêu thích</option>
+                        <option value="">Tất cả</option>
+                        <option value="">Truyện Naruto</option>
+                        <option value="">Truyện OnePiece</option>
+                        <option value="">Truyện DragonBall</option>
+                        <option value="">Truyện Bleach</option>
+                        
+                      
+                    </select>
+                    <button class="btn-signup">Đăng ký ngay</button>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer email -->
+    
+        <!-- Begin Footer container -->
+        <div class="footer-container-M">
+            <div class="row-M">
+                <div class="overlay-row-M">
+                    <div class="row-M">
+                        <div class="span5-M">
+                            <div class="span4-M">
+                                <div class="content-M">
+                                    <span class="title-M">Về store</span>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Giới thiệu cửa hàng sách
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Tuyển dụng
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Góc truyện tranh
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Chương trình đại lý
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Chính sách bảo mật
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Chính sách đổi trả
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="span4-M">
+                                <div class="content-M">
+                                    <span class="title-M">Trợ giúp</span>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Quy định sử dụng
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Hướng dẫn mua hàng
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Phương thức thanh toán
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Phương thức vận chuyển
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Các câu hỏi thường gặp
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Ứng dụng đọc ebook
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="span4-M">
+                                <div class="content-M">
+                                    <span class="title-M">Tin tức truyện</span>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Tin tức
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Chân dung
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Điểm truyện
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="ul-M">
+                                        <li>
+                                            <a href="#">
+                                                Phê bình
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="logo-app-mobile">
+                                <div class="content-M">
+                                    <span class="title-M">Tải ứng dụng trên điện thoại</span>
+                                    <figure class="logo-app">
+                                        <a class="mg-r" href="#" target="_blank" rel="noopener noreferrer">
+                                            <img src="https://www.vinabook.com/images/mobile/icon-appstore.png" alt="">
+                                        </a>
+                                        <a href="#" target="_blank" rel="noopener noreferrer">
+                                            <img src="https://www.vinabook.com/images/mobile/icon-googleplay.png" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span7-M">
+                            <div class="span4-M">
+                                <div class="content-M">
+                                    <span class="title-M">Chấp nhận thanh toán</span>
+                                    <figure class="icon-payment">
+                                        <img src="./im/visa.jpg" alt="">
+                                        <img src="./im/master_card.jpg" alt="">
+                                        <img src="./im/jcb.jpg" alt="">
+                                        <img src="./im/atm.jpg" alt="">
+                                        <img src="./im/cod.jpg" alt="">
+                                        <img src="./im/payoo.jpg" alt="">
+                                    </figure>
+                                    <span class="title-M">Thanh toán an toàn</span>
+                                    <figure class="icon-payment">
+                                        <img src="./im/verify_visa.jpg" alt="">
+                                        <img src="./im/mastercard_securecode.jpg" alt="">
+                                        <img src="./im/onepay.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="span4-M">
+                                <div class="content-M">
+                                    <span class="title-M">Đối tác vận chuyển</span>
+                                    <figure class="logo-shipper">
+                                       
+                                        <img src="./im/vn-post.jpg" alt="">
+                                        <img class="width" src="./im/dhl.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="span4-M">
+                                <div class="content-M">
+                                    <span class="title-M">Đối tác bán hàng</span>
+                                    <figure class="logo-shipper">
+                                        <img src="./im/lazada.jpg" alt="">
+                                        <img src="./im/shopee.jpg" alt="">
+                                        <img src="./im/amazon.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer container -->
+
+        <!-- Begin Footer Copyright -->
+        <div class="footer-copyright">
+            <div class="footer-container-M">
+                <div class="container__infos">
+                    <div class="span3"> 
+                        <a href="#">
+                            <img src="./im/logoSaleNoti.png" alt="">
+                        </a>
+                    </div>
+                    <div class="span5-M">
+                        <p>CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ MÊ KÔNG COM</p>
+                        <span>Địa chỉ: 52/2 Thoại Ngọc Hầu, Phường Hòa Thạnh, Quận Tân Phú, Hồ Chí Minh</span>
+                        <br>
+                        <span>MST: 0303615027 do Sở Kế Hoạch Và Đầu Tư Tp.HCM cấp ngày 10/03/2011</span>
+                        <br>
+                        <span>
+                            Tel: 028.73008182 - Fax: 028.39733234 - Email: 
+                            <a href="#">hotro@vinabook.com</a>
+                        </span>
+                    </div>
+                    <div class="span4-M"> 
+                        <p>Website cùng hệ thống</p> 
+                        <figure class="logo-web-he-thong"> 
+                            <a href="https://www.hotdeal.vn"> 
+                                <img width="152" height="22" src="https://www.vinabook.com/images/thumbnails/img/152/22/logo_hotdeal_2x.png"> 
+                            </a> 
+                        </figure> 
+                        <figure class="logo-web-he-thong"> 
+                            <a href="https://www.yesgo.vn"> 
+                                <img width="146" height="40" src="https://www.vinabook.com/images/thumbnails/img/146/40/logo_yesgo_2x.png"> 
+                            </a> 
+                        </figure> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Copyright -->
+        <!-- http://online.gov.vn/Home/WebDetails/610 -->
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
